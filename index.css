@@ -1,0 +1,35 @@
+.papa{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 'one one one'
+                         'two three  four'
+                         'two three five'
+                         'math math math';
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr; */
+}
+.pikin1{
+    grid-area: one;
+    background-color: aqua;
+}
+.pikin2{
+    grid-area: two;
+    background-color: rgb(34, 0, 255);
+}
+.pikin3{
+    grid-area: three;
+    background-color: rgb(255, 0, 217);
+}
+.pikin4{
+    grid-area: four;
+    background-color: rgb(255, 0, 0);
+}
+.pikin5{
+    grid-area: five;
+    background-color: rgb(157, 255, 0);
+}
+.pikin6{
+    grid-area: math;
+    background-color: rgb(0, 255, 166);
+}
